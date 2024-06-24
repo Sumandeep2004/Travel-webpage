@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    border: solid black 1px;
+
+}
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+margin-top: 50px;
+margin-left: 50px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li a{
+    
+text-decoration: none;
+float: left;
+padding:20px;
+
+}
+.navbar ul li a:hover{
+    font-weight: bolder;
+    background-color:black;
+    color: white;
+}
+.navbar .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:150px;
+margin-left: 900px;
+border: solid black 2px;
+border-radius: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+.container1{
+    
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container1 .img{
+    height: 350px;
+    width:550px;
+    background-image: url(images/travelimg1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.head{
+   font-size: 100px;
+   font-weight: bolder;
+}
+.button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container2{
+    margin-top: 80px;
+    text-align: center;
+    color:white;
+    height:300px;
+    background-color: black;
+}
+
+.button2{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-left: 480px;
+    margin-top: 40px;
+}
+.container3{
+    margin-top: 50px      ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bimg{
+    height:250px ;
+    width:360px ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container4{
+    margin-top: 60px;
+}
+.box1  {
+    float: left;
+    margin-left: 25px;
+}
+.box2  {
+    float: left;
+    margin-left: 120px;
+}
+.box3 {
+    float: left;
+    margin-left: 120px;
+}
+
+.imgaero{
+    height: 70px;
+    width: 100px;
+    background-image: url(images/aero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    margin-left: 550px;
+}
+.container6{
+    height:700px;
+    display: flex;
+}
+.image1{
+    height: 570px;
+    width: 500px;
+    background-image: url(images/img4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 50px;
+
+}
+.image2{
+    height: 250px;
+    width:360px;
+    background-image: url(images/img5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.container7{
+    background-color: black;
+    height: 850px;
+    color: white;
+    display: flex;
+    
+}
+.content2{
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 500px;
+    width: fit-content;
+}
+.img4{
+    height:800px ;
+    width:650px;
+background-image: url(images/travelimg6.png);
+background-size: contain;
+background-repeat: no-repeat;
+margin-left: 50px;
+margin-top: 100px;
+}
+.container8{
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.content3{
+font-size: 60px;
+font-weight: bolder;
+}
+.img5{
+    height:600px;
+    width:400px;
+    background-image: url(images/Screenshot\ 2024-06-14\ 183121.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container10{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+}
+.img6{
+
+    background-image: url(images/formimg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+    width: 500px;
+
+}
+
+.container11{
+    height: 300px;
+    background-color: rgb(193, 191, 191);
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top:150px ;
+}
+.copy{
+    background-color: rgb(193, 191, 191);
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large ;
+    padding-top: 80px;
+   
+}
